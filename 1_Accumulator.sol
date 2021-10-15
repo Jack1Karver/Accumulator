@@ -38,7 +38,7 @@ contract Accumulator {
 
 
     function add(uint value) public checkOwner {
-       require((value<=10)&&(value>0));
+       require(value<=10);
         
         product *= value; 
 
